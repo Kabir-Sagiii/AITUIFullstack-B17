@@ -1,0 +1,47 @@
+#flexContainer {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  margin: 30px auto;
+}
+.col1 {
+  background-color: lightcoral;
+  width: 200px;
+}
+.col2 {
+  background-color: lightgray;
+  width: 200px;
+}
+.col3 {
+  background-color: lightgreen;
+  width: 200px;
+}
+.col4 {
+  background-color: lightseagreen;
+  width: 200px;
+}
+
+#flexRowContainer {
+  width: 1200px;
+  height: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+.row1 {
+  background-color: lightcoral;
+  height: 100px;
+}
+.row2 {
+  background-color: lightgray;
+  height: 250px;
+}
+.row3 {
+  background-color: lightgreen;
+  height: 25px;
+}
+.row4 {
+  background-color: lightseagreen;
+  height: 25px;
+}
