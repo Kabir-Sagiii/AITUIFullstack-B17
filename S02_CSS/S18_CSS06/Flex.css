@@ -1,0 +1,32 @@
+.container {
+  border: 3px solid red;
+  width: 800px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  flex-basis: 100px;
+}
+
+.item1 {
+  background-color: lightgrey;
+  order: 2;
+}
+.item2 {
+  background-color: lightgreen;
+  order: 1;
+}
+.item3 {
+  background-color: lightcoral;
+  order: 5;
+}
+.item4 {
+  background-color: lightseagreen;
+  order: 3;
+}
+.item5 {
+  background-color: lightpink;
+  order: 4;
+}

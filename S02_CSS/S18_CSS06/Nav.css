@@ -1,0 +1,39 @@
+body,
+h1 {
+  margin: 0;
+}
+.nav {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  color: white;
+  width: 40%;
+}
+.flexcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  width: 60%;
+}
+.right a {
+  color: white;
+  text-decoration: none;
+  margin-right: 70px;
+}
+.categories {
+  width: 1230px;
+  height: 130px;
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.categoryItem {
+  text-align: center;
+}
