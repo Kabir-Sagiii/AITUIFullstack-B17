@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Transform Property</title>
+    <style>
+      div {
+        background-color: black;
+        color: white;
+        padding: 5px;
+        width: 300px;
+        transition-property: transform;
+        transition-duration: 1s;
+        transition-delay: 1s;
+        transition-timing-function: linear;
+      }
+
+      div:hover {
+        /* transform: translate(1000px, 0px); */
+        /* transform: rotateY(180deg); */
+        transform: scale(0.6);
+      }
+      img {
+        transition-property: transform;
+        transition-duration: 2s;
+        transition-delay: 0.5s;
+        transition-timing-function: linear;
+      }
+      img:hover {
+        transform: scale(2);
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://www.crushpixel.com/big-static7/preview4/portrait-young-professional-man-suit-258742.jpg"
+      width="300"
+      height="300"
+    />
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+      molestiae.
+    </div>
+  </body>
+</html>
